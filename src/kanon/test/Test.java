@@ -12,5 +12,6 @@ public class Test
 	ApplicationContext ctx = new ClassPathXmlApplicationContext("classpath:spring.xml");
 	User user = (User) ctx.getBean("user");
 	user.sayInfo();
+	System.out.println("-----------");
     }
 }
