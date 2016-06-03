@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class LogAspect
 {	       
-    @Pointcut("execution(* kanon.aspectjtest.entities.User.* (..))")
+    @Pointcut("execution(* kanon.aspectjtest.entities.User.sayInfo (..))")
     public void pointcut(){	
 	
     }
